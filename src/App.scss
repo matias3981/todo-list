@@ -1,0 +1,11 @@
+.app-container {
+  background-image: url('./assets/bg-desktop-light.jpg');
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__body{
+    width: calc(40%);
+  }
+}
